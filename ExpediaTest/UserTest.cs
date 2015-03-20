@@ -35,6 +35,7 @@ namespace ExpediaTest
 		{
 			target.book(new Flight(StartDate, EndDate, 0), new Hotel(5), new Car(3));
 			Assert.AreEqual(3, target.Bookings.Count);
+           
 		}
 		
 		[Test()]
